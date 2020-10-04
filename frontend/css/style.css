@@ -1,0 +1,38 @@
+
+*{
+    margin:auto;
+    padding:auto;
+}
+.logo{width: 120px;}
+
+header nav li,
+header nav a{display: inline-block;}
+header nav a{text-decoration: none;}
+
+.header-main{
+  background-color: #f1c400;
+  padding: 20px 0 10px 0;
+  margin-bottom: 30px;
+}
+/* --- MAIN NAV --- */
+
+.main-nav{
+    margin-top: 10px;
+    clear: right;
+    margin-left: 100px;
+   
+  }
+  ul {
+    list-style-type: none;
+}
+  .main-nav li{margin-left: 10px;
+    border-bottom: 5px solid;
+    color: #333333;
+    font-size: 20px;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+  }

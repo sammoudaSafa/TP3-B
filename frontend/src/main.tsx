@@ -1,5 +1,5 @@
-import { CommentEditor } from 'component/commenteditor';
+import { Home } from 'component/home';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-ReactDOM.render(<CommentEditor />, document.getElementById('coreContainer'));
+ReactDOM.render(<Home />, document.getElementById('coreContainer'));
