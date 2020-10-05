@@ -20,17 +20,21 @@ export class MainRouter extends React.Component<Props, State> {
 
     public render() {
 
-        return < BrowserRouter basename={BASE_HREF}>
-            <Link to='/home'>Accueil</Link>
-            <Link to='/owner'>Owner</Link>
-            <Link to='/product'>Produit</Link>
+        return <div className='header-main'>
+            < BrowserRouter basename={BASE_HREF}>
 
-            <Switch>
-                <Route path='/home' component={Home} />
-                <Route path='/owner' component={Owner} />
-                <Route path='/product' component={Product} />
+                <Link to='/home'>Accueil  </Link>
+                <Link to='/owner'>  Fondateur  </Link>
+                <Link to='/product'>  Produit  </Link>
 
-            </Switch>
-        </ BrowserRouter>;
+                <Switch>
+                    <Route path='/home' component={Home} />
+                    <Route path='/owner' component={Owner} />
+                    <Route path='/product' component={Product} />
+
+                </Switch>
+
+            </ BrowserRouter>
+        </div>;
     }
 };

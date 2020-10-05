@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav } from './nav';
+import { CommentEditor } from './commenteditor';
 
 interface Props { }
 interface State {
@@ -22,8 +22,10 @@ export class Owner extends React.Component<Props, State> {
     public render() {
 
         return <>
-            <Nav />
-            <p>page owner</p>
+            <h3>LE FONDATEUR</h3>
+            <img src='img/fondateur.jpg' />
+            <div>Vos commentaires:</div>
+            <CommentEditor />
         </>;
     }
 

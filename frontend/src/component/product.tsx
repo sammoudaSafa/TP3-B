@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav } from './nav';
+import { CommentEditor } from './commenteditor';
 
 interface Props { }
 interface State {
@@ -22,8 +22,12 @@ export class Product extends React.Component<Props, State> {
     public render() {
 
         return <>
-            <Nav />
-            <p>page product</p>
+
+            <h3>LA MARQUE TERRA DELYSSA</h3>
+            <img src='img/gourme.png' />
+            <div>Vos commentaires:</div>
+            <CommentEditor />
+
         </>;
     }
 
