@@ -1,5 +1,6 @@
-import { CommentEditor } from 'component/commenteditor';
+// import { CommentEditor } from 'component/commenteditor';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { MainRouter } from './mainrouter';
 
-ReactDOM.render(<CommentEditor />, document.getElementById('coreContainer'));
+ReactDOM.render(<MainRouter />, document.getElementById('coreContainer'));
