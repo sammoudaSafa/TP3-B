@@ -11,7 +11,6 @@ export class Nav extends React.Component<Props, State> {
                     <Link to='/owner'> <li>Gérant</li> </Link>
                     <Link to='/product'> <li>Produit</li></Link>
                 </ul>
-
             </div>
         </div>;
     }

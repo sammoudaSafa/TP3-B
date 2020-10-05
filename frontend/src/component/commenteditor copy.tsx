@@ -1,6 +1,5 @@
 import { CommentModel } from 'common';
 import React from 'react';
-import { CommentCreationForm } from './commentecreationform';
 
 
 interface Props { }
@@ -45,7 +44,7 @@ export class CommentEditor extends React.Component<Props, State> {
                 <br />
                 <br />
             </div>)}
-            <CommentCreationForm />
+
         </>;
     }
 }

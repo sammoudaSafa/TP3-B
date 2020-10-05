@@ -19,7 +19,7 @@ app.use((_req, res, next) => {
 });
 
 app.get('/', (_req, res) => {
-    res.send('Allo');
+    res.send('Allo there');
 });
 
 app.use('/comment', commentRouter);
