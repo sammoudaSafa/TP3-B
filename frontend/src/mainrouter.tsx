@@ -23,6 +23,8 @@ export class MainRouter extends React.Component<Props, State> {
         return < BrowserRouter basename={BASE_HREF}>
             <Link to='/home'>Accueil</Link>
             <Link to='/owner'>Owner</Link>
+            <Link to='/product'>Produit</Link>
+
             <Switch>
                 <Route path='/home' component={Home} />
                 <Route path='/owner' component={Owner} />

@@ -1,6 +1,5 @@
 import { CommentEditor } from 'component/commenteditor';
 import React from 'react';
-import { Nav } from './nav';
 
 interface Props { }
 interface State {
@@ -23,13 +22,14 @@ export class Home extends React.Component<Props, State> {
     public render() {
 
         return <>
-            <Nav />
             <div>
-                {/* <img src='imfg/banner2.jpg' /> */}
+                <img src='img/banner2.jpg' />
+                <section className='contenu'>Riche d’un héritage de plus de 3 000 ans, nous produisons notre huile d’olive en respect des normes de qualité les plus strictes, cueillons toujours nos olives à la main et travaillons nos champs d’oliviers sans utiliser de produits chimiques. La fierté d’un héritage ou le symbole du cheval représente la fertilité et de prospérité a cartage, la royaume des amazighs.
+                </section>
+                <div>Vos commentaires:</div>
                 <CommentEditor />
 
             </div>
-            {/* <section className='contenu'>Riche d’un héritage de plus de 3 000 ans, nous produisons notre huile d’olive en respect des normes de qualité les plus strictes, cueillons toujours nos olives à la main et travaillons nos champs d’oliviers sans utiliser de produits chimiques. La fierté d’un héritage ou le symbole du cheval représente la fertilité et de prospérité a cartage, la royaume des amazighs.  </section> */}
         </>;
     }
 
